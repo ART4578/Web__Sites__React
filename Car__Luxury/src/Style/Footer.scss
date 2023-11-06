@@ -1,0 +1,128 @@
+/*footer component*/
+.footer {
+    background: teal;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+/*logo footer*/
+.footer__logo i {
+    color: white;
+    font-weight: 400;
+}
+
+.footer__logo span {
+    color: white;
+    font-weight: 500;
+}
+
+.footer__logo-content {
+    color: white;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+/*quick links*/
+.quick__link {
+    border: none !important;
+    background: transparent !important;
+}
+
+.quick__link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.quick__link a:hover {
+    color: var(--green);
+}
+
+/*info office*/
+.footer__link-title {
+    color: white;
+}
+
+.office__info {
+    color: white;
+    font-weight: 300;
+}
+
+/*newsletter*/
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid teal;
+    border-radius: 50px;
+    background: white;
+    color: teal;
+}
+
+.section__description {
+    color: white;
+}
+
+.newsletter input {
+    background: transparent;
+    color: teal;
+    border: none;
+    outline: none;
+}
+
+.newsletter span i {
+    color: teal;
+}
+
+/*footer bottom*/
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.arrow__top {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__top .arrow__top__btn {
+    color: teal;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.name__txt {
+    color: white;
+}
+
+/*responsive mobile*/
+@media only screen and (max-width: 768px) {
+    .footer__logo-content {
+        font-size: 0.8rem;
+    }
+
+    .quick__link, .office__info {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .footer__link-title {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+
+    .footer__bottom p {
+        font-size: 0.7rem;
+    }
+}

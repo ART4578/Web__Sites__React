@@ -1,0 +1,61 @@
+/*login && register style*/
+.auth {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+
+    h1 {
+      font-size: 20px;
+      color: teal;
+      margin-bottom: 20px;
+    }
+   
+    .register__block {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+    } 
+
+    .login__block {
+      width: 100%;
+      height: 390px;
+      display: flex;
+      justify-content: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      background-color: white;
+      border: 1px solid teal;
+      width: 340px;
+      gap: 20px;
+
+      input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+      }
+
+      button {
+        padding: 10px;
+        border: none;
+        background-color: teal;
+        cursor: pointer;
+        color: white;
+      }
+
+      span {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .link__register, .link__login {
+        color: teal !important;
+        border-bottom: 1px solid teal !important;
+      }
+    }
+}
