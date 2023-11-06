@@ -1,0 +1,58 @@
+/*info*/
+.info {
+    width: 100%;
+    height: 623px;
+}
+
+/*href*/
+.href {
+    text-decoration: none;
+}
+
+/*back*/
+.back {
+    margin-top: 26.5px;
+    width: 100%;
+    height: 30px;
+}
+
+/*header text*/
+.header__text {
+    width: 85%;
+    height: 29px;
+    margin-top: 8.5px;
+    margin-left: 118px;
+    display: flex;
+    align-items: center;
+}
+
+/*speeds*/
+.speed__div {
+    width: 100%;
+    height: 469px;
+    margin-top: 24px;
+    & .speeds {
+        width: 1296px; 
+        height: 100%;
+        margin-left: 113px;
+        display: flex;
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .info {
+        height: 700px;
+    }
+
+    .speed__div {
+        width: 100%;
+        height: 557px;
+        & .speeds {
+            width: 345px;
+            height: 100%;
+            margin-left: 15px;
+            display: block;
+        }
+    }
+}

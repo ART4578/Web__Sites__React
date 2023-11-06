@@ -1,0 +1,21 @@
+/*wallet sgr*/
+.wallet__sgr {
+    width: 625px;
+    height: 100%;
+    background: linear-gradient(256.7deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 21px;
+    margin-left: 40px;
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .wallet__sgr {
+        width: 300px;
+        height: 350px;
+        margin-left: 0px;
+        margin-top: 36px;
+    }
+}

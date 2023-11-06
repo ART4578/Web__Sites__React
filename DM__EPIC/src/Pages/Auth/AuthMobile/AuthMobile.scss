@@ -1,0 +1,49 @@
+/*mobile logo*/
+.mobile__logo {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    & .log__content {
+        width: 143.94px;
+        height: 48px;
+        display: flex;
+        cursor: pointer;
+        /*logo*/
+        & .logo__div {
+            width: 48px;
+            height: 100%;
+            & .img__logo {
+                width: 48px;
+                height: 100%;
+            }
+        }
+        /*content*/
+        & .content {
+            width: 92px;
+            height: 100%;
+            padding-left: 10.68px;
+            & .content__txt {
+                text-decoration: none;
+                color: #CCD2E3;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .mobile__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 197px;
+    }
+    .mob__href {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

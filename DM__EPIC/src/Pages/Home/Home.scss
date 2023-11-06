@@ -1,0 +1,281 @@
+/*home page*/
+.home__page {
+    width: 100%;
+    height: 1550px;
+    margin-top: 13px; 
+    /*speeds*/
+    & .speed__div {
+        width: 100%;
+        height: 469px;
+        margin-top: 24px;
+        & .speeds {
+            width: 1296px; 
+            height: 100%;
+            margin-left: 113px;
+            display: flex;
+        }
+    }
+    /*alg head*/
+    & .alg__head {
+        width: 114px;
+        height: 24px;
+        margin-top: 19px;
+        display: none;
+        & .head__cont {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    /*algorithm*/
+    & .algorithm__div {
+        width: 100%;
+        height: 98px;
+        margin-top: 20px;
+        & .algorithm {
+            width: 1296px;
+            height: 100%;
+            margin-left: 113px;
+            display: flex;
+        }
+    }
+    /*map head*/
+    & .map__head {
+        width: 114px;
+        height: 24px;
+        margin-top: 19px;
+        display: none;
+        & .head__cont {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    /*map*/
+    & .map__div {
+        width: 100%;
+        height: 309px;
+        margin-top: 20px;
+        & .map {
+            width: 1296px;
+            height: 100%;
+            margin-left: 113px;
+            display: flex;
+        }
+    }
+    /*wall head*/
+    & .wall__head {
+        width: 114px;
+        height: 24px;
+        margin-top: 19px;
+        display: none;
+        & .head__cont {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    /*wallet select*/
+    & .wallet__select__div {
+        width: 100%;
+        height: 129px;
+        margin-top: 20px;
+        & .wallet__select {
+            width: 1296px;
+            height: 100%;
+            margin-left: 113px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            border-radius: 8px;
+        }
+    }
+    /*fans head*/
+    & .fans__head {
+        width: 114px;
+        height: 24px;
+        margin-top: 19px;
+        display: none;
+        & .head__cont {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    /*fans*/
+    & .fans__div {
+        margin-top: 20px;
+        width: 100%;
+        height: 98px;
+        & .fans {
+            margin-left: 113px;
+            width: 1296px;
+            height: 100%;
+            display: flex;
+        }
+    }
+    /*load head*/
+    & .load__head {
+        width: 114px;
+        height: 24px;
+        margin-top: 19px;
+        display: none;
+        & .head__cont {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    /*load*/
+    & .load__div {
+        margin-top: 20px;
+        width: 100%;
+        height: 171px;
+        & .load {
+            width: 1296px;
+            height: 100%;
+            margin-left: 113px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            border-radius: 8px;
+        } 
+    }
+    /*temps*/
+    & .temps__div {
+        width: 100%;
+        height: 98px;
+        margin-top: 20px;
+        & .temps {
+            width: 1296px;
+            height: 100%;
+            margin-left: 113px;
+            display: flex;
+        }
+    }  
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .home__page {
+        width: 366px;
+        height: 2944px;
+        & .speed__div {
+            width: 350px;
+            height: 557px;
+            margin-left: 10px;
+            & .speeds {
+                width: 100%;
+                height: 100%;
+                display: block;
+                margin-left: 0px;
+            }
+        }
+        & .alg__head {
+            display: block;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        & .algorithm__div {
+            width: 345px;
+            height: 252px;
+            margin-left: 10px;
+            & .algorithm {
+                width: 100%;
+                height: 100%;
+                margin-left: 0px;
+                display: block;
+            }
+        }
+        & .map__head {
+            display: block;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        & .map__div {
+            width: 345px;
+            height: 713px;
+            margin-left: 10px;
+            & .map {
+                width: 100%;
+                height: 100%;
+                margin-left: 0px;
+                display: block;
+            }
+        }
+        & .wall__head {
+            display: block;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        & .wallet__select__div {
+            width: 345px;
+            height: 272px;
+            margin-left: 10px;
+            & .wallet__select {
+                width: 100%;
+                height: 100%;
+                margin-left: 0px;
+                display: block;
+            }
+        }
+        & .fans__head {
+            display: block;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        & .fans__div {
+            margin-top: 10px;
+            width: 345px;
+            height: 162px;
+            & .fans {
+                margin-left: 0px;
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+        & .load__head {
+            display: block;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+        & .load__div {
+            width: 345px;
+            height: 452px;
+            margin-left: 10px;
+            & .load {
+                width: 100%;
+                height: 100%;
+                margin-left: 0px;
+            }
+        }
+        & .temps__div {
+            width: 345px;
+            height: 162px;
+            margin-top: 10px;
+            margin-left: 10px;
+            & .temps {
+                width: 100%;
+                height: 100%;
+                margin-left: 0px;
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto;
+            }
+        }
+    }
+}

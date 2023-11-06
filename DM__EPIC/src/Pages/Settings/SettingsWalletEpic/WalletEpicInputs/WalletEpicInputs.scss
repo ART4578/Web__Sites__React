@@ -1,0 +1,95 @@
+//inputs
+.wallet__epic .select__inputs {
+    width: 100%;
+    height: 194px;
+    margin-top: 22.5px;
+}
+
+.wallet__epic .select__inputs .inps__divs__one .divs__inps__one .header__text,
+.wallet__epic .select__inputs .inps__divs__one .divs__inps__two .header__text,
+.wallet__epic .select__inputs .inps__divs__two .divs__inps__three .header__text,
+.wallet__epic .select__inputs .inps__divs__two .divs__inps__for .header__text,
+.wallet__epic .select__inputs .inps__divs__three .divs__inps__five .header__text,
+.wallet__epic .select__inputs .inps__divs__three .divs__inps__six .header__text {
+    margin-left: 10px;
+    margin-top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCD2E3;
+    opacity: 0.5;
+}
+
+.wallet__epic .select__inputs .inps__divs__one {
+    width: 100%;
+    height: 54px;
+    display: flex;
+}
+
+.wallet__epic .inps__divs__one .divs__inps__one,
+.wallet__epic .inps__divs__one .divs__inps__two,
+.wallet__epic .inps__divs__two .divs__inps__three,
+.wallet__epic .inps__divs__two .divs__inps__for,
+.wallet__epic .inps__divs__three .divs__inps__five,
+.wallet__epic .inps__divs__three .divs__inps__six {
+    width: 284px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+}
+
+.wallet__epic .inps__divs__one,
+.wallet__epic .inps__divs__two,
+.wallet__epic .inps__divs__three {
+    margin-left: 20px;
+}
+
+.wallet__epic .inps__divs__one .divs__inps__two {
+    margin-left: 16px;
+    display: flex;
+}
+
+.wallet__epic .select__inputs .inps__divs__two {
+    width: 100%;
+    height: 54px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.wallet__epic .select__inputs .inps__divs__one .divs__inps__two .wallet__epic__sel {
+    width: 100%;
+    height: 100%;
+    color: gray;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.wallet__epic .inps__divs__two .divs__inps__for {
+    margin-left: 16px;
+}
+
+.wallet__epic .select__inputs .inps__divs__three {
+    width: 100%;
+    height: 54px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.wallet__epic .inps__divs__three .divs__inps__six {
+    margin-left: 16px;
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .select__inputs .inps__divs__one .divs__inps__two,
+    .select__inputs .inps__divs__two .divs__inps__for,
+    .select__inputs .inps__divs__three .divs__inps__six  {
+        margin-right: 36px;
+    }
+}

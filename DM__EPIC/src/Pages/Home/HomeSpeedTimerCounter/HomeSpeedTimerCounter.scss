@@ -1,0 +1,17 @@
+/*speed timer, speed counter*/
+.speed {
+    width: 302px;
+    height: 100%;
+    margin-left: 44px;
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .speed {
+        width: 100%;
+        height: 204px;
+        margin-top: 10px;
+        margin-left: 0px;
+        display: flex;
+    }
+}

@@ -1,0 +1,110 @@
+/*settings*/
+.settings {
+    width: 100%; /*100vw*/
+    height: 1524px;
+    margin-top: 10px;
+    /*back*/
+    & .back {
+        margin-top: 26.5px;
+        width: 100%;
+        height: 17px;
+    }
+    /*header text*/
+    & .header__text {
+        width: 85%;
+        height: 29px;
+        margin-top: 8.5px;
+        margin-left: 118px;
+    }
+    /*mobile text div*/
+    & .mobile__text__div {
+        width: 50px;
+        height: 50px;
+        display: none;
+        margin-top: 24px;
+        margin-left: 138px;
+    }
+    /*logo main*/
+    & .logo__main {
+        margin-top: 24px;
+        width: 100%;
+        height: 580px;
+        & .logo__div {
+            margin-left: 118px;
+            width: 85%;
+            height: 100%;
+            background: linear-gradient(256.7deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    /*settings select*/
+    & .settings__info {
+        width: 100%;
+        height: 724px;
+        margin-top: 20px;
+        & .settings__details {
+            width: 1289px;
+            height: 100%;
+            margin-left: 118px;
+            /*wallet rb, wallet sgr*/
+            & .wallets__rb__sgr {
+                width: 100%;
+                height: 352px;
+                display: flex;
+            }
+            /*wallet epic, change password*/
+            & .walletEpic__changePassword {
+                width: 100%;
+                height: 352px;
+                display: flex;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .settings {
+        height: 2859px;
+        & .mobile__text__div {
+            display: block;
+        }
+        & .logo__main {
+            width: 345px;
+            height: 500px;
+            margin-left: 30px;
+            &  .logo__div {
+                width: 100%;
+                height: 100%;
+                margin-left: 0px;
+            }
+        }
+        & .settings__info .settings__details {
+            width: 345px;
+            height: 1530px;
+            margin-left: 30px;
+            & .wallets__rb__sgr {
+                width: 100%;
+                height: 1136px;
+                display: block;
+            }
+            & .walletEpic__changePassword {
+                width: 100%;
+                height: 1072px;
+                margin-top: -360px; 
+                display: block;
+            }
+        }
+    }
+}
+
+/*settings*/
+@media (max-width: 1280px) {
+    .settings {
+        height: 2250px;
+    }
+}

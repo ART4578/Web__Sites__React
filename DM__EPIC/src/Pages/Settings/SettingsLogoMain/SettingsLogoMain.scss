@@ -1,0 +1,40 @@
+/*logo main*/
+.text__div {
+    width: 1500px;
+    height: 100%;
+    /*img*/
+    & .img__txt {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #CCD2E3;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+/*scroll*/
+.scroll__div {
+    width: 2px;
+    height: 514px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 23px;
+    & .scroll__top {
+        width: 100%;
+        height: 98.28px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 23px;
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .text__div .img__txt {
+        display: none;
+    }
+    .scroll__div {
+        height: 100%;
+    }   
+}

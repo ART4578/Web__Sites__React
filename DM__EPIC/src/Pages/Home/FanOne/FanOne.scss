@@ -1,0 +1,68 @@
+/*fan one*/
+.fan__one {
+    width: 625px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    display: flex;
+    & .fan__one__div {
+        width: 86px;
+        height: 100%;
+        & .fan__one__imgDiv {
+            margin-top: 12px;
+            margin-left: 12px;
+            width: 74px;
+            height: 74px;
+            border-radius: 8px;
+        }
+    }
+    & .fan__one__text {
+        margin-left: 16px;
+        width: 522px;
+        height: 100%;
+        display: block;
+        & .txt {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #CCD2E3;
+            margin-top: 22px;
+        }
+        & .txt__point {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 39px;
+            color: #CCD2E3;
+            margin-top: 3px;
+        }
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .fan__one {
+        width: 100%;
+        height: 76px;
+        margin-left: 10px;
+        & .fan__one__div {
+            height: 100%;
+            & .fan__one__imgDiv {
+                width: 55px;
+                height: 55px;
+            }
+        }
+        & .fan__one__text .txt {
+            margin-top: 18px;
+        }
+        & .fan__one__text .txt__point {
+            height: 30px;
+            font-size: 24px;
+            margin-top: -10px;
+        }
+    }
+}

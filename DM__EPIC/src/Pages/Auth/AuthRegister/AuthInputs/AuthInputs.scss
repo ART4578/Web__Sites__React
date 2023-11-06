@@ -1,0 +1,67 @@
+/*inputs*/
+.inputs {
+    width: 100%;
+    height: 208px;
+    margin-top: 24px;
+    & .logIn__input {
+    width: 100%;
+    height: 95px;
+    }
+    & .password__input {
+        width: 100%;
+        height: 95px;
+        margin-top: 16px;
+    }
+    .logIn__input .header, .password__input .header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0px;
+    color: #CCD2E3;
+    margin-left: 3px;
+        & .logIn__txt {
+            width: 100%;
+            height: 17px;
+        }
+        & .logIn__inp {
+            width: 100%;
+            height: 54px;
+            margin-top: 8px;
+        }
+        & .password__txt {
+            width: 100%;
+            height: 17px;
+        }
+        & .password__inp {
+            width: 100%;
+            height: 54px;
+            margin-top: 8px;
+        }
+    }
+    .logIn__inp .inp__name, .password__inp .inp__password {
+        padding-left: 10px;
+        padding-top: 19px;
+        padding-bottom: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(204, 210, 227, 0.25);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        border-radius: 8px;
+        width: 355px;
+        height: 100%;
+        outline: none;
+    }            
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .inputs .logIn__inp .inp__name, .inputs .password__inp .inp__password {
+        width: 290px;
+    }      
+}

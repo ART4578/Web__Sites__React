@@ -1,0 +1,83 @@
+/*speed counter*/
+.speed__counter {
+    width: 100%;
+    height: 108px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    /*header*/
+    & .head {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #CCD2E3;
+    }
+    /*time*/
+    & .counter__time__div {
+        margin-top: 7px;
+        margin-left: 20px;
+        width: 265px;
+        height: 42px;
+        display: flex;
+        & .time, & .time__one {
+            width: 24px;
+            height: 100%;
+            margin-left: 4px;
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 42px;
+            font-feature-settings: "tnum" on, "lnum" on;
+            background: linear-gradient(180deg, #FFFFFF 0%, #989898 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        & .time__one {
+            width: 24px;
+            height: 100%;
+        }
+        & .time__points {
+            width: 11px;
+            height: 100%;
+            margin-left: 4px;
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 42px;
+            font-feature-settings: "tnum" on, "lnum" on;
+            background: linear-gradient(180deg, #FFFFFF 0%, #989898 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+   .speed__counter {
+        width: 167px;
+        height: 90px;
+        margin-left: 11px;
+        margin-top: 0px;
+        & .counter__time__div {
+            margin-left: 2px;
+        }
+        & .counter__time__div .time, & .counter__time__div .time__one {
+            margin-left: 0px;
+            width: 17px;
+        }
+        & .counter__time__div .time__points {
+            margin-left: 0px;
+            width: 9px;
+        }
+   }   
+}

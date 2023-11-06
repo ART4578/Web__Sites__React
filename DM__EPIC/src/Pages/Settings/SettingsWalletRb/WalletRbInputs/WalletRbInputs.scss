@@ -1,0 +1,75 @@
+.inputs__select {
+    width: 100%;
+    height: 194px;
+    margin-top: 22.5px;
+    & .inps__divs__one {
+        width: 100%;
+        height: 54px;
+        display: flex;
+    }
+}
+
+.wallet__rb .inps__divs__one .divs__inps__one .header__text,
+.wallet__rb .inps__divs__two .divs__inps__three .header__text,
+.wallet__rb .inps__divs__two .divs__inps__for .header__text,
+.wallet__rb .inps__divs__one .divs__inps__two .header__text,
+.wallet__rb .inps__divs__three .divs__inps__five .header__text,
+.wallet__rb .inps__divs__three .divs__inps__six .header__text {
+    margin-left: 10px;
+    margin-top: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCD2E3;
+    opacity: 0.5;
+}
+
+.wallet__rb .inps__divs__one .divs__inps__one,
+.wallet__rb .inps__divs__one .divs__inps__two,
+.wallet__rb .inps__divs__two .divs__inps__three,
+.wallet__rb .inps__divs__two .divs__inps__for,
+.wallet__rb .inps__divs__three .divs__inps__five,
+.wallet__rb .inps__divs__three .divs__inps__six {
+    width: 284px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+}
+
+.wallet__rb .inps__divs__one .divs__inps__two {
+    margin-left: 16px;
+    display: flex;
+}
+
+.wallet__rb .inputs__select .inps__divs__two {
+    width: 100%;
+    height: 54px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.wallet__rb .inputs__select .divs__inps__two .wallet__rb__sel {
+    width: 100%;
+    height: 100%;
+    color: gray;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.wallet__rb .inps__divs__two .divs__inps__for, 
+.wallet__rb .inps__divs__three .divs__inps__six {
+    margin-left: 16px;
+}
+
+.wallet__rb .inputs__select .inps__divs__three {
+    width: 100%;
+    height: 54px;
+    margin-top: 16px;
+    display: flex;
+}

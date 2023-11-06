@@ -1,0 +1,34 @@
+/*footer*/
+.footer__logo {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .footer__logo__content {
+        width: 143.94px;
+        height: 48px;
+        display: flex;
+        cursor: pointer;
+        /*logo*/
+        & .footer__logo {
+            width: 48px;
+            height: 100%;
+            & .footer__img {
+                width: 48px;
+                height: 100%;
+            }
+        }
+        /*content*/
+        & .footer__content {
+            width: 92px;
+            height: 100%;
+            padding-left: 10.68px;
+            & .footer__content__txt {
+                text-decoration: none;
+                color: #CCD2E3;
+                font-size: 12px;
+            }
+        }
+    }
+}

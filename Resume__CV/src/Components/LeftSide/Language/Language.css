@@ -1,0 +1,13 @@
+.languages {
+    padding-top: 150px;
+}
+
+.languages .title {
+    margin-bottom: 20px;    
+}
+
+.language .text {
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+}

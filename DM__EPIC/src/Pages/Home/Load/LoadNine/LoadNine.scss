@@ -1,0 +1,116 @@
+/*load nine*/
+.load__nine {
+    width: 40px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    margin-left: 22.5px;
+    /*vector*/
+    & .vector__div {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        & .border1, & .border2,
+        & .border3, & .border4 {
+            width: 0px;
+            height: 2px;
+            border: 1.5px solid #FFFFFF;
+            position: absolute;
+        }
+        & .border1 {
+            left: 21px;
+            top: 8px;
+        }
+        & .border2 {
+            left: 17px;
+            top: 8px;
+        }
+        & .border3 {
+            left: 21px;
+            top: 28px;
+        }
+        & .border4 {
+            left: 17px;
+            top: 28px;
+        }
+        & .border5, & .border6,
+        & .border7, & .border8 {
+            width: 2px;
+            height: 0px;
+            border: 1.5px solid #FFFFFF;
+            position: absolute;
+        }
+        & .border5 {
+            left: 8px;
+            top: 17px;
+        }
+        & .border6 {
+            left: 8px;
+            top: 21px;
+        }
+        & .border7 {
+            left: 28px;
+            top: 17px;
+        }
+        & .border8 {
+            left: 28px;
+            top: 21px;
+        }
+        & .vector {
+            width: 15px;
+            height: 15px;
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            & .bg__color {
+                width: 8px;
+                height: 8px;
+                background: #31C67E;
+                border-radius: 2px;
+            }
+        }
+    }
+    /*border*/
+    & .border__div {
+        width: 100%;
+        height: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .border {
+            width: 30px;
+            height: 0px;
+            border-radius: 2px;
+            background: rgba(255, 255, 255, 0.09);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+        }
+    }
+    /*number*/
+    & .number__div {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .number {
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .load__nine {
+        margin-left: 13px;
+    }
+}

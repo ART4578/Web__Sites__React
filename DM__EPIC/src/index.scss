@@ -1,0 +1,22 @@
+/*global style*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #000000;
+  color: #CCD2E3;
+}
+
+/*web site main scroll-bar*/
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 5rem;
+  background: purple;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background: #7910DA;
+  border-radius: 5rem;
+}

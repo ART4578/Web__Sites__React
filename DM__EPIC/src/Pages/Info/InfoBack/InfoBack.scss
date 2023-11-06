@@ -1,0 +1,35 @@
+/*back*/
+.icon__txt {
+    width: 70px; 
+    height: 100%;
+    margin-left: 118px;
+    display: flex;
+    align-items: center;
+    /*img*/
+    & .icon__img {
+        width: 10px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .icon {
+            color: #CCD2E3;
+            &:hover {
+                color: #7910DA;
+            }
+        }
+    }
+        /*text*/
+        & .text {
+            margin-left: 10.3px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #CCD2E3;
+            &:hover {
+                color: #7910DA;
+            }
+        }
+}

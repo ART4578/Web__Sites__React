@@ -1,0 +1,33 @@
+/*back*/
+.href {
+    text-decoration: none;
+}
+
+.icon__txt {
+    width: 52.3px;
+    height: 100%;
+    margin-left: 118px;
+    display: flex;
+    /*back img*/
+    & .icon__img {
+        width: 10px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .img {
+            width: 10px;
+            height: 10px;
+        }
+    }
+    /*back text*/
+    & .text {
+        margin-left: 10.3px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #CCD2E3;
+    }
+}

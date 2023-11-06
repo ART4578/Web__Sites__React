@@ -1,0 +1,58 @@
+/*temps temp*/
+.temps__temp {
+    width: 302px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    display: flex;  
+    margin-left: 28.6px;  
+    & .icon__div {
+        width: 86px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .img__div {
+            width: 74px;
+            height: 74px;
+            border-radius: 8px;
+            margin-left: 12px;
+        }
+    }
+    & .text__div {
+        width: 199px;
+        height: 100%;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        & .txt {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            color: #CCD2E3;
+            font-size: 32px;
+            line-height: 39px; 
+            & .span {
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}
+
+/*responsive mobile*/
+@media (max-width: 1280px) {
+    .temps__temp {
+        width: 167px;
+        height: 76px;
+        margin-left: 11px;
+        & .icon__div {
+            height: 100%;
+            & .img__div {
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+}
